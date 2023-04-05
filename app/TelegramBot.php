@@ -12,7 +12,7 @@ class TelegramBot
 
     public function __construct()
     {
-        $this->botToken = '6094304795:AAF2ICPEKhssiiYoTNuoNcrMXA5cAH_k8bA';
+        $this->botToken = '';
         $this->apiUrl = 'https://api.telegram.org/bot';
         $this->bot = new Api($this->botToken);
     }
